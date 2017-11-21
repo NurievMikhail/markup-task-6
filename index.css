@@ -153,6 +153,56 @@ h1
     font-weight: 600;
 }
 
+.degrees::before,
+.jam-assessment::before,
+.tv-program h1::after,
+.show-more p::before,
+.city-name::before
+{
+    content: '';
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.city-name::before
+{
+    background: url('cityArrow.png');
+    width: 19px;
+    height: 17px;
+    vertical-align: top;
+    margin-right: 2px;
+}
+
+.show-more p::before
+{
+    background: url('circleArrow.png');
+    width: 19px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+.tv-program h1::after
+{
+    margin-left: 20px;
+    background: url('onlineTV.png');
+    width: 91px;
+    height: 25px;
+}
+
+.degrees::before
+{
+    background: url('weather.png');
+    width: 42px;
+    height: 30px;
+}
+
+.jam-assessment::before
+{
+    background: url('jam.png');
+    width: 30px;
+    height: 29px;
+}
+
 .degrees,
 .jam-assessment
 {
