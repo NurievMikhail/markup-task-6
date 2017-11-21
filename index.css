@@ -1,0 +1,302 @@
+h1
+{
+    color: #0153b8;
+    font: 18px sans-serif;
+    display: inline;
+}
+
+.car-news div
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.car-news-list::before
+{
+    top: 0;
+}
+
+.car-news-list::after
+{
+    bottom: 0;
+}
+
+.car-news-list::before,
+.car-news-list::after
+{
+    background: white;
+    opacity: .4;
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 40px;
+}
+
+.car-news-list
+{
+    height: 250px;
+    width: 106%;
+    overflow-y: scroll;
+}
+
+.show-more
+{
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.anecdote-section,
+.show-more
+{
+    color: #0d43a2;
+}
+
+.map-category
+{
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.weather p,
+.traffic-jams p,
+.map p,
+.anecdotes p
+{
+    margin-top: 5px;
+}
+
+.channel,
+.additional-information
+{
+    margin-left: 10px;
+}
+
+.visited-list li,
+.tv-list li,
+.car-news-list li,
+.poster-list li
+{
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.visited-list,
+.tv-list,
+.car-news-list,
+.poster-list
+{
+    margin-top: 5px;
+    list-style: none;
+    padding: 0;
+}
+
+.mail-login::first-letter
+{
+    color: red;
+}
+
+.letters-number,
+.mail-login,
+.visited-section,
+.concert
+{
+    font-weight: 600;
+}
+
+.city-name,
+.search-example,
+.channel,
+.car-news-list time,
+.additional-information
+{
+    color: #9e9898;
+}
+
+.currency-name
+{
+    font: bold 13px sans-serif;
+}
+
+.currency-value,
+.currency-change,
+.other-currency
+{
+    font-size: 14px;
+}
+
+.currency-change,
+.other-currency
+{
+    color: #98999d;
+    margin-right: 15px;
+}
+
+.news-list
+{
+    list-style-position: outside;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.news-list li
+{
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.mass-media-date
+{
+    color: #999da8;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.degrees,
+.jam-assessment
+{
+    color: black;
+}
+
+.mass-media-city
+{
+    color: #78a1df;
+}
+
+.search-entry-field
+{
+    height: 35px;
+    border: 2px solid #fedb4d;
+    width: 85%;
+}
+
+.search-submit
+{
+    height: 35px;
+    background-color: #fedb4d;
+    width: 75px;
+    margin-left: -5px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+}
+
+.yandex-nav
+{
+    margin: 5px 0;
+}
+
+.nav-link
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+    color: #0062c5;
+    text-decoration: none;
+}
+
+.main-div
+{
+    display: grid;
+    grid-template-areas: 'a b b c d'
+        'e f f g s'
+        'h i i i s'
+        't j j j s'
+        't k l m s'
+        't k l n s'
+        't k l o s'
+        't p q r s';
+    grid-template-columns: 240px 300px 300px 260px 200px;
+    grid-template-rows: 80px 210px 120px 100px 80px 90px 100px 180px;
+    grid-column-gap: 10px;
+}
+
+.city
+{
+    grid-area: a;
+}
+
+.settings
+{
+    grid-area: c;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.mail
+{
+    padding-left: 10px;
+    box-shadow: 0 0 3px black;
+    border-radius: 2px;
+    grid-area: d;
+}
+
+.city-news
+{
+    grid-area: f;
+}
+
+.gift
+{
+    grid-area: g;
+}
+
+.logo
+{
+    grid-area: h;
+    text-align: right;
+}
+
+.search-and-navigation
+{
+    grid-area: i;
+}
+
+.advertising
+{
+    grid-area: j;
+}
+
+.visited
+{
+    margin-top: 10px;
+    grid-area: k;
+}
+
+.tv-program
+{
+    margin-top: 10px;
+    grid-area: l;
+}
+
+.weather
+{
+    margin-top: 10px;
+    grid-area: m;
+}
+
+.traffic-jams
+{
+    grid-area: n;
+}
+
+.map
+{
+    grid-area: o;
+}
+
+.anecdotes
+{
+    grid-area: p;
+}
+
+.car-news
+{
+    grid-area: q;
+}
+
+.poster
+{
+    grid-area: r;
+}
