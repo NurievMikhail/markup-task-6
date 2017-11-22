@@ -1,8 +1,20 @@
+@font-face
+{
+    font-family: Franklin-Gothic-Medium;
+    src: url(Franklin-Gothic-Medium.ttf);
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
 h1
 {
     color: #0153b8;
-    font: 18px sans-serif;
+    font-size: 18px;
     display: inline;
+    font-weight: normal;
 }
 
 .car-news div
@@ -54,6 +66,7 @@ h1
 
 .map-category
 {
+    font-size: 13px;
     font-weight: 600;
     margin-right: 20px;
 }
@@ -64,6 +77,11 @@ h1
 .anecdotes p
 {
     margin-top: 5px;
+}
+
+.anecdotes p
+{
+    font-size: 13px;
 }
 
 .channel,
@@ -77,8 +95,8 @@ h1
 .car-news-list li,
 .poster-list li
 {
-    font-size: 15px;
-    margin: 5px 0;
+    font: 14px Franklin-Gothic-Medium, sans-serif;
+    margin: 7px 0;
 }
 
 .visited-list,
@@ -115,7 +133,7 @@ h1
 
 .currency-name
 {
-    font: bold 13px sans-serif;
+    font: bold 12px sans-serif;
 }
 
 .currency-value,
@@ -142,15 +160,14 @@ h1
 
 .news-list li
 {
-    margin: 5px 0;
-    font-size: 15px;
+    margin: 7px 0;
+    font: 14px Franklin-Gothic-Medium, sans-serif;
 }
 
 .mass-media-date
 {
     color: #999da8;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 13px;
 }
 
 .degrees::before,
@@ -239,14 +256,14 @@ h1
 
 .nav-link
 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     margin-right: 20px;
     color: #0062c5;
     text-decoration: none;
 }
 
-.main-div
+main
 {
     display: grid;
     grid-template-areas: 'a b b c d'
@@ -262,7 +279,7 @@ h1
     grid-column-gap: 10px;
 }
 
-.city
+.city-name
 {
     grid-area: a;
 }
